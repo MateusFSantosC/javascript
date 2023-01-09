@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páis de origem</title>
+</head>
+<body>
+    <h1>Páis de origem</h1>
+    <div id="linha"></div>
+    <script>
+        var pais = window.prompt('Qual seu pais de origem')
+        var res = document.getElementById('linha')
+        if ( pais == 'Brasil'){
+            res.innerHTML = `Seu páis é <strong>${pais}</strong> que legal `
+            res.innerHTML += `entao voce é <strong>Brasileiro</strong>`
+        } else{
+            res.innerHTML = `Seu páis é <strong>${pais}</strong> que legal `
+            res.innerHTML += `entao voce é <strong>estrangeiro</strong>` 
+        }
+        
+    </script>
+</body>
+</html>
